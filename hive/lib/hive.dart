@@ -13,6 +13,9 @@ import 'package:hive/src/box/default_compaction_strategy.dart';
 import 'package:hive/src/box/default_key_comparator.dart';
 import 'package:hive/src/crypto/aes_cbc_pkcs7.dart';
 import 'package:hive/src/crypto/crc32.dart';
+import 'package:hive/src/crypto/ozdst/gost_28147_engine.dart';
+import 'package:hive/src/crypto/ozdst/key_parameter.dart';
+import 'package:hive/src/crypto/ozdst/ozdst.dart';
 import 'package:hive/src/hive_impl.dart';
 import 'package:hive/src/object/hive_list_impl.dart';
 import 'package:hive/src/object/hive_object.dart';
@@ -46,6 +49,8 @@ part 'src/box/lazy_box.dart';
 part 'src/crypto/hive_aes_cipher.dart';
 
 part 'src/crypto/hive_cipher.dart';
+
+part 'src/crypto/ozdst/ozdst_cipher.dart';
 
 part 'src/hive.dart';
 
